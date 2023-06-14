@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const url="http://localhost:8000";
+const url="https://notemakerserver.onrender.com";
 
 export const newMessage=async(data)=>{
     try {
