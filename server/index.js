@@ -8,6 +8,8 @@ import * as path from 'path';
 dotenv.config();
 const app=express();
 
+const PORT=process.env.PORT || 8000
+
 app.use(cors());
 app.use(bodyParser.json({exended: true}));
 app.use(bodyParser.urlencoded({extended: true}));
@@ -30,7 +32,5 @@ if(process.env.NODE_ENV==='production'){
 //--------------------DEPLOYMENT
 
 Connection();
-
-const PORT=8000;
 
 app.listen(PORT, ()=> console.log(`server running on port ${PORT}`));
