@@ -22,10 +22,9 @@ const EditBox=(msg)=>{
             messageHeading: heading,
             messageContent: content,
         }
-        console.log("id",propsData.id);
         toast({
-          title: 'Account created.',
-          description: "We've created your account for you.",
+          title: 'Message updated.',
+          description: "Message have been updated",
           status: 'success',
           duration: 9000,
           isClosable: true,

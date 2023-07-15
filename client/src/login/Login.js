@@ -36,6 +36,7 @@ const Login=()=>{
         <FormLabel backgroundColor="aliceblue">Password</FormLabel>
         <Input placeholder='Enter your Password' 
         backgroundColor="white"
+        type="password"
         onChange={(e)=>setPassword(e.target.value)}
         />
         </FormControl>

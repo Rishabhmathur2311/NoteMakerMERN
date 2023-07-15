@@ -1,11 +1,17 @@
 import React from "react";
 import { Tabs, TabList, TabPanels, Tab, TabPanel, Box, Container } from '@chakra-ui/react';
+import {
+  Alert,AlertIcon} from '@chakra-ui/react';
 import Login from "../login/Login";
 import SignUp from "../login/Signup";
 
 const Auth=()=>{
     return (
         <Box>
+        <Alert status='info' variant='solid' >
+        <AlertIcon />
+        Loading of Database might take 3-4 minutes
+       </Alert>
         <Container maxW="xs" centerContent paddingTop="2%" backgroundColor="aliceblue "
         position="fixed"
         borderRadius="16px"

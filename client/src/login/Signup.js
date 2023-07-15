@@ -57,6 +57,7 @@ const SignUp=()=>{
         <FormLabel backgroundColor="aliceblue ">Password</FormLabel>
         <Input backgroundColor="white"
         placeholder='Enter your Password' 
+        type="password"
         onChange={(e)=>setPassword(e.target.value)}
         value={password}
         />
