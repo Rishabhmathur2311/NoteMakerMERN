@@ -35,6 +35,7 @@ const SignUp=()=>{
 
     return (
         <VStack spacing="10px" backgroundColor="aliceblue ">
+        {alert("Loading of database might take 3-4 minutes")}
         <FormControl  width="120%" backgroundColor="aliceblue ">
         <FormLabel backgroundColor="aliceblue ">Name</FormLabel>
         <Input backgroundColor="white"
